@@ -48,7 +48,7 @@ To best understand conflicts, it's helpful to see one directly. The steps below 
    take github-conflict-example
    git init
    echo ".DS_Store" > .gitignore
-   git commit .
+   git add .
    git commit -m "Initial commit"
    ```
 
